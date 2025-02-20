@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inyungu green academy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./styles.css">
+  
+</head>
+
+<body>
+<nav class="nav">
+  <div class="logo">
+    <img src="./Assets/IGA_Logo_Final_ver_2_(1).png" alt="My Logo">
+  </div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#activities-beneficiaries">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  <div class="nav-toggle" onclick="toggleNav()">
+    <span class="block w-6 h-0.5 bg-black mb-1"></span>
+    <span class="block w-6 h-0.5 bg-black mb-1"></span>
+    <span class="block w-6 h-0.5 bg-black mb-1"></span>
+  </div>
+</nav>
+  
+  <div class="hero-slider">
+    <div class="hero-slide active">
+      <img src="./Assets/hero 6.jpeg" alt="Slide 1">
+    </div>
+    
+    <div class="hero-slide">
+      <img src="./Assets/hero 5.jpg" alt="Slide 2">
+    </div>
+    
+    <div class="hero-slide">
+      <img src="./Assets/hero 4.webp" alt="Slide 3">
+    </div>
+    
+    <div class="hero-content">
+      <h1>Empowering Rwandan Entrepreneurs</h1>
+      <p>With Financial, Digital, and Green Business Skills.</p>
+      <a href="#activities-beneficiaries" class="inline-block mt-6 primary-bg text-white px-6 py-2 rounded-3xl shadow-lg hover:bg-yellow-400 transition">
+      Explore our services</a>
+    </div>
+</div>
+
+
+<!-- About Us Section -->
+<section id="about" class="py-20 px-6 md:px-10 lg:px-40 relative overflow-hidden flex items-center justify-center min-h-screen" style="background-color: #F9F9F9; width: 100%;">
+
+  <div class="container mx-auto text-center">
+    <!-- Centered About Us Text Content -->
+    <div class="lg:w-3/4 mx-auto animate-fade-in-up">
+      <h2 class="text-3xl font-bold  mb-6">About Us</h2>
+      <p class="text-black text-base font-normal leading-6 aligne-left" style="font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">
+        Inyungu Green Academy (IGA) is committed to advancing Rwanda’s Vision 2050 of becoming a knowledge-based,
+        high-income nation through sustainable economic growth and environmental consciousness. Aligned with Rwanda’s
+        National Strategy for Transformation (NST1 & NST2), IGA focuses on entrepreneurship development, financial
+        inclusion, and green growth to support the country’s strategic goals. By equipping Rwandan entrepreneurs
+        with financial, digital, and green business skills, IGA aims to foster innovation and drive sustainable
+        economic transformation.
+      </p>
+    </div>
+    <br>
+
+<div class="mission-vision" style="font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: rgb(0, 0, 0); line-height: 24px; text-align: start; padding: 20px; border-radius: 8px;">
+  <div class="content">
+    <div class="mission mb-6">
+      <h4 class="text-xl font-semibold mb-2 text-blue-500">Mission</h4>
+      <p class="text-base font-normal" style="font-size: 16px; font-weight: 400;">
+        To empower Rwandan entrepreneurs, particularly youth and women, with the financial, digital, and green business skills needed to drive sustainable economic growth, create jobs, and contribute to Rwanda’s journey toward a knowledge-based and environmentally conscious economy.
+      </p>
+    </div>
+    <div class="vision mb-6">
+      <h4 class="text-xl font-semibold mb-2 text-blue-500">Vision</h4>
+      <p class="text-base font-normal" style="font-size: 16px; font-weight: 400;">
+        To become the leading center for green entrepreneurship development in Rwanda, where innovative, digitally-empowered, and environmentally-conscious entrepreneurs thrive, contributing to the creation of a high-income, sustainable, and inclusive economy by 2050.
+      </p>
+    </div>
+    <div class="objective mb-6">
+      <h4 class="text-xl font-semibold mb-2 text-blue-500">Objectives</h4>
+      <p class="text-base font-normal" style="font-size: 16px; font-weight: 400;">Equip 500 Rwandan entrepreneurs with advanced skills in the first year.</p>
+      <p class="text-base font-normal" style="font-size: 16px; font-weight: 400;">Promote digital literacy aligned with Vision 2050.</p>
+      <p class="text-base font-normal" style="font-size: 16px; font-weight: 400;">Foster innovation and financial inclusion for inclusive growth.</p>
+    </div>
+  </div>
+</div>
+
+
+</section>
+<section id="activities-beneficiaries" class="py-10 bg--100">
+  <!-- Main Container for Activities and Beneficiaries -->
+  <div id="activities-beneficiaries"  class="container mx-auto text-center px-4 sm:px-2 md:px-4">
+    <div class="lg:w-3/4 mx-auto animate-fade-in-up">
+      <!-- <h2 class="text-3xl font-bold mb-6">Services</h2> -->
+      <h2 class="service-h2 text-3xl font-semibold mb-6">Our Services</h2>
+
+      <!-- Activity Container with Grid Layout -->
+      <div class="activity-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 items-stretch">
+        <!-- Activity 1 -->
+        <div class="activity-card p-4 rounded-lg shadow-md flex flex-col items-center">
+          <div class="icon text-green-600 mb-3">
+            <i class="fas fa-seedling fa-2x"></i>
+          </div>
+          <h3 class="text-lg font-semibold mb-1 text-center">Financial & Green Business Management Training</h3>
+          <p class="text-sm text-justify">Workshops on financial planning and access to green financing options.</p>
+        </div>
+
+        <!-- Activity 2 -->
+        <div class="activity-card p-4 rounded-lg shadow-md flex flex-col items-center">
+          <div class="icon text-green-600 mb-3">
+            <i class="fas fa-tools fa-2x"></i>
+          </div>
+          <h3 class="text-lg font-semibold mb-1 text-center">Digital & Green Business Tools</h3>
+          <p class="text-sm text-justify">Training on digital banking and eco-friendly digital tools.</p>
+        </div>
+
+        <!-- Activity 3 -->
+        <div class="activity-card p-4 rounded-lg shadow-md flex flex-col items-center">
+          <div class="icon text-green-600 mb-3">
+            <i class="fas fa-hand-holding-water fa-2x"></i>
+          </div>
+          <h3 class="text-lg font-semibold mb-1 text-center">Green Business Mentorship</h3>
+          <p class="text-sm text-justify">A mentorship program focused on sustainable business models.</p>
+        </div>
+
+        <!-- Activity 4 -->
+        <div class="activity-card p-4 rounded-lg shadow-md flex flex-col items-center">
+          <div class="icon text-green-600 mb-3">
+            <i class="fas fa-piggy-bank fa-2x"></i>
+          </div>
+          <h3 class="text-lg font-semibold mb-1 text-center">Access to Green Finance</h3>
+          <p class="text-sm text-justify">Facilitating connections with financial institutions.</p>
+        </div>
+
+        <!-- Beneficiary 1 -->
+        <div class="activity-card p-4 rounded-lg shadow-md flex flex-col items-center">
+          <div class="icon text-green-600 mb-3">
+            <i class="fas fa-user fa-2x"></i>
+          </div>
+          <h3 class="text-lg font-semibold mb-1 text-center">Target Beneficiaries</h3>
+          <p class="text-sm text-justify">Youth Entrepreneurs</p>
+          <p class="text-sm text-justify">Women Entrepreneurs</p>
+          <p class="text-sm text-justify">Rural Entrepreneurs</p>
+        </div>
+
+        <!-- Outcome 1 -->
+        <div class="activity-card p-4 rounded-lg shadow-md flex flex-col items-center">
+          <div class="icon text-green-600 mb-3">
+            <i class="fas fa-chart-line fa-2x"></i>
+          </div>
+          <h3 class="text-lg font-semibold mb-1 text-center">Expected Outcomes</h3>
+          <p class="text-sm text-justify">Enhanced Digital Literacy</p>
+          <p class="text-sm text-justify">Increased Access to Finance</p>
+          <p class="text-sm text-justify">Sustainable Growth</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<br>
+<br>
+
+<!-- contact -->
+<section id="contact" class="py-20 px-40 bg-light-grey-100">
+  <div class="container mx-auto">
+    <div class="flex flex-col md:flex-row justify-between items-center md:items-start">
+      <!-- Left Side: Contact Information -->
+      <div class="mb-6 md:mb-0 md:w-1/2">
+        <h2 class="text-2xl font-bold mb-4">Have a Question? Just Ask</h2>
+        <p class="text-sm text-gray-600 mb-4 text-justify">
+          Feel free to reach out to us with any inquiries or for more information about our services. 
+          We're here to assist you and provide the support you need to address your unique challenges.
+        </p>
+      </div>
+
+      <!-- Right Side: Address Card -->
+    
+      <div class="md:w-1/3 flex justify-center">
+        <div class="address-card bg-white py-6 px-24 rounded-lg shadow-md border border-gray-300"> 
+          <h3 class="text-lg font-semibold mb-2 whitespace-nowrap">Contact Information</h3>
+          <p class="text-sm text-gray-700 whitespace-nowrap">Address: Kigali, KN 9 Ave</p>
+          <p class="text-sm text-gray-700 whitespace-nowrap">Email: <span class="email-color">info@inyunguacademy.rw</span></p>
+          <p class="text-sm text-gray-700">Phone: +250785406689</p>
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+</section>
+
+
+  <footer class="bg-gray-200 py-6 text-center">
+   
+    <p class="text-sm text-gray-600">&copy; 2024 Inyungu Green Academy. All Rights Reserved.</p>
+  </footer>
+  
+
+  <script src="index.js"></script>
+</body>
+
+</html>
